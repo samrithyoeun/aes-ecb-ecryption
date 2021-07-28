@@ -1,0 +1,363 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8FF5B3EE26B1504600EEE049 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FF5B3ED26B1504600EEE049 /* AppDelegate.m */; };
+		8FF5B3F126B1504600EEE049 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FF5B3F026B1504600EEE049 /* SceneDelegate.m */; };
+		8FF5B3F426B1504600EEE049 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FF5B3F326B1504600EEE049 /* ViewController.m */; };
+		8FF5B3F726B1504600EEE049 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FF5B3F526B1504600EEE049 /* Main.storyboard */; };
+		8FF5B3F926B1504900EEE049 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FF5B3F826B1504900EEE049 /* Assets.xcassets */; };
+		8FF5B3FC26B1504900EEE049 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FF5B3FA26B1504900EEE049 /* LaunchScreen.storyboard */; };
+		8FF5B3FF26B1504900EEE049 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FF5B3FE26B1504900EEE049 /* main.m */; };
+		8FF5B40826B1507D00EEE049 /* CryptLib.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FF5B40726B1507D00EEE049 /* CryptLib.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8FF5B3E926B1504600EEE049 /* aes-ebc-encryption.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "aes-ebc-encryption.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FF5B3EC26B1504600EEE049 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8FF5B3ED26B1504600EEE049 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8FF5B3EF26B1504600EEE049 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		8FF5B3F026B1504600EEE049 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		8FF5B3F226B1504600EEE049 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8FF5B3F326B1504600EEE049 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8FF5B3F626B1504600EEE049 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8FF5B3F826B1504900EEE049 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8FF5B3FB26B1504900EEE049 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8FF5B3FD26B1504900EEE049 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FF5B3FE26B1504900EEE049 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8FF5B40626B1507D00EEE049 /* CryptLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CryptLib.h; sourceTree = "<group>"; };
+		8FF5B40726B1507D00EEE049 /* CryptLib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CryptLib.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8FF5B3E626B1504600EEE049 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8FF5B3E026B1504600EEE049 = {
+			isa = PBXGroup;
+			children = (
+				8FF5B3EB26B1504600EEE049 /* aes-ebc-encryption */,
+				8FF5B3EA26B1504600EEE049 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8FF5B3EA26B1504600EEE049 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8FF5B3E926B1504600EEE049 /* aes-ebc-encryption.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8FF5B3EB26B1504600EEE049 /* aes-ebc-encryption */ = {
+			isa = PBXGroup;
+			children = (
+				8FF5B3EC26B1504600EEE049 /* AppDelegate.h */,
+				8FF5B3ED26B1504600EEE049 /* AppDelegate.m */,
+				8FF5B3EF26B1504600EEE049 /* SceneDelegate.h */,
+				8FF5B3F026B1504600EEE049 /* SceneDelegate.m */,
+				8FF5B3F226B1504600EEE049 /* ViewController.h */,
+				8FF5B3F326B1504600EEE049 /* ViewController.m */,
+				8FF5B40A26B1512200EEE049 /* CryptLib */,
+				8FF5B3F526B1504600EEE049 /* Main.storyboard */,
+				8FF5B3F826B1504900EEE049 /* Assets.xcassets */,
+				8FF5B3FA26B1504900EEE049 /* LaunchScreen.storyboard */,
+				8FF5B3FD26B1504900EEE049 /* Info.plist */,
+				8FF5B3FE26B1504900EEE049 /* main.m */,
+			);
+			path = "aes-ebc-encryption";
+			sourceTree = "<group>";
+		};
+		8FF5B40A26B1512200EEE049 /* CryptLib */ = {
+			isa = PBXGroup;
+			children = (
+				8FF5B40626B1507D00EEE049 /* CryptLib.h */,
+				8FF5B40726B1507D00EEE049 /* CryptLib.m */,
+			);
+			path = CryptLib;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8FF5B3E826B1504600EEE049 /* aes-ebc-encryption */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FF5B40226B1504900EEE049 /* Build configuration list for PBXNativeTarget "aes-ebc-encryption" */;
+			buildPhases = (
+				8FF5B3E526B1504600EEE049 /* Sources */,
+				8FF5B3E626B1504600EEE049 /* Frameworks */,
+				8FF5B3E726B1504600EEE049 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "aes-ebc-encryption";
+			productName = "aes-ebc-encryption";
+			productReference = 8FF5B3E926B1504600EEE049 /* aes-ebc-encryption.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8FF5B3E126B1504600EEE049 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					8FF5B3E826B1504600EEE049 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 8FF5B3E426B1504600EEE049 /* Build configuration list for PBXProject "aes-ebc-encryption" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8FF5B3E026B1504600EEE049;
+			productRefGroup = 8FF5B3EA26B1504600EEE049 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8FF5B3E826B1504600EEE049 /* aes-ebc-encryption */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8FF5B3E726B1504600EEE049 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FF5B3FC26B1504900EEE049 /* LaunchScreen.storyboard in Resources */,
+				8FF5B3F926B1504900EEE049 /* Assets.xcassets in Resources */,
+				8FF5B3F726B1504600EEE049 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8FF5B3E526B1504600EEE049 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FF5B3F426B1504600EEE049 /* ViewController.m in Sources */,
+				8FF5B3EE26B1504600EEE049 /* AppDelegate.m in Sources */,
+				8FF5B3FF26B1504900EEE049 /* main.m in Sources */,
+				8FF5B40826B1507D00EEE049 /* CryptLib.m in Sources */,
+				8FF5B3F126B1504600EEE049 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8FF5B3F526B1504600EEE049 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8FF5B3F626B1504600EEE049 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8FF5B3FA26B1504900EEE049 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8FF5B3FB26B1504900EEE049 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8FF5B40026B1504900EEE049 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8FF5B40126B1504900EEE049 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8FF5B40326B1504900EEE049 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H2VT6C3TLF;
+				INFOPLIST_FILE = "aes-ebc-encryption/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "beniten.aes-ebc-encryption";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8FF5B40426B1504900EEE049 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H2VT6C3TLF;
+				INFOPLIST_FILE = "aes-ebc-encryption/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "beniten.aes-ebc-encryption";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8FF5B3E426B1504600EEE049 /* Build configuration list for PBXProject "aes-ebc-encryption" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FF5B40026B1504900EEE049 /* Debug */,
+				8FF5B40126B1504900EEE049 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FF5B40226B1504900EEE049 /* Build configuration list for PBXNativeTarget "aes-ebc-encryption" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FF5B40326B1504900EEE049 /* Debug */,
+				8FF5B40426B1504900EEE049 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8FF5B3E126B1504600EEE049 /* Project object */;
+}
